@@ -1,0 +1,46 @@
+.project {
+  padding-left: auto;
+  padding-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  max-width:812px;
+  padding-top: 35px;
+}
+
+
+.row-project::after {
+  width: auto;
+  height: auto;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.column-project-image {
+  max-width:  404px;
+  box-sizing: border-box;
+  height: auto;
+  float: left;
+
+  border: 2px solid #101010; #21AD84; #FF997D;
+  box-shadow: -20px -20px #192129;
+}
+
+
+.column-project-image:hover {
+  opacity: 0.6;
+}
+
+
+.column-project-description{
+  padding-left: 25px;
+  word-wrap: break-word;
+  height: auto;
+  text-align: left;
+  float: left;
+  width: 50%;
+  font-size: 23px;
+  line-height: 1.3;
+}

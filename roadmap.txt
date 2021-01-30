@@ -1,0 +1,29 @@
+0) Gather information:
+    -general layout(?)                                                         V
+    -general information used is such resumes                                  V
+
+1) Write:
+    -personal information(always trying to make something new and useful)      V
+    -study experience(including current studies)                               V
+    -work experience                                                           V
+    -programing skills                                                         V
+    -write about  Facebook                                                     X
+
+1.5) Links:
+    -home(projects V, introduction, skills and knowledge)                      V
+    -work experience                                                           V
+    -study experience                                                          V
+    -Contact                                                                   V
+    -about                                                                     V
+
+2) Design:
+    -photos/images(?)                                                          V
+    -saying (I know that I know nothing ~Socrates)                             X
+    -projects displayed(link + screenshot)                                     V
+    -project descriptions and what tools/frameworks/libraries/algo used:       X
+    -styles                                                                    V
+
+3) Deployment:
+    -domain(?)
+    -nginx set-up
+    -gunicorn set-up

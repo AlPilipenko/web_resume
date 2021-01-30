@@ -1,0 +1,52 @@
+.profile {
+  padding-left: auto;
+  padding-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  max-width:812px;
+}
+
+
+.row-profile::after {
+  width: auto;
+  height: auto;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.column-profile-image {
+  padding-bottom: -10px;
+  margin-top: -110px;
+  width: 30%;
+  box-sizing: border-box;
+  height: auto;
+  float: left;
+}
+
+
+.column-profile-text {
+  background: #192129;
+  width: 61%;
+  text-align: left;
+  box-sizing: border-box;
+  height: auto;
+  float: left;
+  right: -20px;
+  top:170px;
+  padding: 10px;
+  position: absolute;
+
+}
+
+
+.quote {
+  position: absolute;
+  text-align:right;
+  color:#FA8261;
+  line-height: 0.3;
+  right: -20px;
+  top: 50px;
+}

@@ -1,0 +1,101 @@
+{% extends 'layout.html' %}
+{% block content %}
+
+{% if title %}
+  <title>Alex Pilipenko - {{ title }}</title>
+{% else %}
+  <title>Alex Pilipenko</title>
+{% endif %}
+
+    <div class="container" style="padding-bottom:0">
+
+      <div class="profile" style="position:relative">
+
+      <div class="row-profile">
+
+          <div class="column-profile-image">
+            <img src="{{ url_for('static', filename='profile_pic50.png') }}"  alt="" width="300px">
+          </div>
+
+
+          <div class="quote">
+            <h5><b>Consistency is only a virtue if you're not a screw up</b></h5>
+            <h6>Grant Sanderson<a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw" style="padding-right: 0px;">(<u>3Blue1Brown</u>)</a></h6>
+          </div>
+
+          <div class="column-profile-text" >
+            <h3>Hello, my name is Alex Pilipenko.</h3>
+            <h4>I am a Data Science student at the OU, actively looking for a first job in the IT industry.
+            Look around to find more about me.</h4>
+          </div>
+
+      </div>
+        <a href="{{ url_for('main.download_cv', filename='Alex_Pilipenko_CV.docx') }}" style="position: absolute; right: -43px;bottom:10px;"><u>Download CV</u></a>
+      </div>
+
+    </div>
+
+
+    <div class="container">
+      <h2>Projects I made so far:</h2>
+      <h6>*click on the images to proceed to the websites</h6>
+
+      <div class="project">
+        <div class="row-project">
+            <div class="column-project-image">
+              <a href="http://www.wordsfromword.com">
+              <img src="{{ url_for('static', filename='wfw2.png' )}}" style="max-width: 400px;" alt=""></a>
+            </div>
+          <div class="column-project-description">
+            <h5>The first app I build and deployed is <b style="color: #FA8261">Wordsfromword</b>.
+            There are many Scrabble assistance tools online. Mine is unique because it outputs not only
+            a list of words but also dictionary descriptions as well as images of those words.</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="row-project">
+            <div class="column-project-image">
+            <a href="http://www.wikifaces.net">
+            <img src="{{ url_for('static', filename='wikifaces2.png' )}}" style="max-width: 400px;" alt=""></a>
+          </div>
+          <div class="column-project-description">
+            <h5>Creation of <b style="color: #FA8261">Wikifaces</b>
+            was inspired by this <a href="https://www.youtube.com/watch?v=NLCc1zYBEUU&list=LL&index=148" style="padding-right: 0px !important;"><u>video</u></a>
+            (black and white picture of Obama was combined with sample text using photoshop and CSS to achieve "cool" effect).
+            So I decided to create an app which would replicate this process with any famous person and make it fully autonomous.</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="row-project">
+            <div class="column-project-image">
+            <a href="http://www.metrodistributorsltd.co.uk">
+            <img src="{{ url_for('static', filename='mdl2.png' )}}" style="max-width: 400px;" alt=""></a>
+          </div>
+          <div class="column-project-description">
+            <h5>As it inevitably happens to all developers at some point of their path,
+            a friend of mine asked me to make a website for his cash&carry business.
+            <b style="color: #FA8261">MDL</b> is a hospitality-type website with
+            admin access, which allows adding, modify and display special offers.</h5>
+          </div>
+        </div>
+      </div>
+
+   </div>
+
+   <div class="container" style="text-align:left">
+     <h2>Programming skills:</h2>
+     <ul>
+       <li>Python</li>
+        <li>Flask</li>
+         <li>HTML</li>
+          <li>CSS</li>
+           <li>Ubuntu</li>
+            <li>SQL</li>
+     </ul>
+  </div>
+
+{% endblock content %}

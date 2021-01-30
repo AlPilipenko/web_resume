@@ -1,0 +1,29 @@
+{% extends 'layout.html' %}
+{% block content %}
+
+{% if title %}
+  <title>Alex Pilipenko - {{ title }}</title>
+{% else %}
+  <title>Alex Pilipenko</title>
+{% endif %}
+
+  <div class="container" style="text-align: left">
+    <h2  style="text-align: center">Education/Qualifications</h2>
+    <ul style="padding-top: 40px">
+      <h4><span style="color: #21AD84;">Oct 2019-current:</span> Open University - BSc (Honours) in Data Science</h4>
+      <h4><span style="color: #21AD84;">Sep 2011-Nov 2011:</span> City of Bristol college - Certificate of PC maintenance and support </h4>
+      <h4><span style="color: #21AD84;">Sep 2004-July 2008:</span> Latvian maritime academy - Diploma of ship navigator + A-levels qualifications(English, Math, Latvian, History)</h4>
+      <h4><span style="color: #21AD84;">Sep 1995-July 2004:</span> Riga secondary school 46 - Diploma of secondary education (equivalent to GCSE)</h4>
+
+    </ul>
+    <p>   </p>
+    <h2  style="text-align: center; padding-top: 70px">Additional skills and qualifications</h2>
+    <ul>
+      <li><h5>Languages: English - fluent, Russian - native, Latvian - fluent</h5></li>
+      <li><h5>Emergency first aid at work certificate</h5></li>
+      <li><h5>Clean UK driving license</h5></li>
+      <li><h5>Excellent Word and Excel skills</h5></li>
+      <li><h5>Udemy certificate of completion - Python 3 online course</h5></li>
+    </ul>
+  </div>
+{% endblock content %}
